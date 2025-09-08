@@ -1,15 +1,23 @@
 public class Loops {
     
     // TODO: Schreibe hier die Methoden für die Teilaufgaben.
-    
+    public static void primeFactorisation(int n) {
+        str zahlen;
+        int zahl;
+        while(n!=1){
+            if (n % zahl < 1){
+                zahlen.apppend((str)zahl)
+                n = n % zahl
+            }
+            else{
+                zahl++
+         }
+        System.out.println(zahlen);
+    }
     public static void main(String[] args){
-        
-        // Test-Code für Teilaufgabe c)
-        System.out.println("Aufgabe c)");
-        System.out.println(hours(3));
-        System.out.println(hours(75));
+       
         // TODO: Schreibe mehr Testcode
-        System.out.println();
+        System.out.println(primeFactorisation(8));
 
         // Test-Code für Teilaufgabe d)
         System.out.println("Aufgabe d)");

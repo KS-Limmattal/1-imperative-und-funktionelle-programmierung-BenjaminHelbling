@@ -19,6 +19,7 @@ public class Methoden {
         distance_xy =(int) Math.sqrt(Math.pow(distance_x,2) + Math.pow(distance_y,2));
         System.out.println(distance_xy);
     }
+    
     public static void main(String[] args){
         // Test-Code für Teilaufgabe a)
         System.out.println("Aufgabe a)");
@@ -34,7 +35,8 @@ public class Methoden {
         distance(8934,38447,345,4533);
         distance(-25,-5, 3,7 );
         System.out.println("Aufgabe b)");
-        // TODO: Schreibe Testcode für die Aufgabe
+
+        primeFactorisation(8);
         System.out.println();
     }
     
