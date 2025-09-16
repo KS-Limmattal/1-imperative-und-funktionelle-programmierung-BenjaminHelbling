@@ -12,7 +12,7 @@ public class Methoden {
     }
     public static void distance(int x1, int y1, int x2, int y2) {
         int distance_x;
-        distance_x = x2 - x1; 
+        distance_x = x2 - x1;
         int distance_y;
         distance_y = y2 -y1;
         int distance_xy;
@@ -41,3 +41,4 @@ public class Methoden {
     }
     
 }
+
