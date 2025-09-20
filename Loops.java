@@ -21,12 +21,13 @@ public class Loops {
         
     } 
 
-    public static void pi(int digits){
-        float zahl = 0;
-        for (int n = 0; n < digits; n++){
-            zahl = zahl + ((hoch(digits)) / (2* digits +1));
+    public static double pi(int digits){
+        long precision = (long) Math.pow(10, digits) * 4 +2;
+        double zahl = 0;
+        for (int n = 0; n < precision; n= n+4){
+            zahl = zahl + ((hoch(n)) / (2* n +1));
         }
-        return zahl * 4
+        return zahl  * 4;
     }
 
     public static int hoch(int digits){
@@ -45,7 +46,7 @@ public class Loops {
         // Test-Code für Teilaufgabe d)
         System.out.println("Aufgabe d)");
         for (int n = 0; n < 12; n++){
-            System.out.println("Pi approximated to " + n + " digits with pi()  is " + pi(n)); // gibt error in linie 48 + wird nicht erkannt. Ich verstehe nicht warum
+            System.out.println("Pi approximated to " + n + " digits with pi()  is " + pi(n));
         }
         System.out.println();
     }
