@@ -43,6 +43,8 @@ public class ArrayTests {
         System.out.println((a == b) + "\n");
     }
 
+
+
     public static void main(String[] args) {
         // syntax();
         // memory();
@@ -55,6 +57,8 @@ public class ArrayTests {
         System.out.println(Arrays.toString(c));
         System.out.println(Arrays.toString(d));
         System.out.println(c[0][0]);
+    
+
     }
 }
  
